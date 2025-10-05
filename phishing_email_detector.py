@@ -2,7 +2,7 @@
 
 # NAME: OCTAVIA CORNWALL
 # DATE: OCTOBER 5, 2025
-# BRIEF DESCRIPTION: PHISING EMAIL DETECTOR
+# BRIEF DESCRIPTION: PHISHING EMAIL DETECTOR
 
 
 
@@ -14,18 +14,18 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-subject = input('Enter the email subject line: ').lower()
+subject = input('Enter the email subject line: ')
 print()
 print('SECURITY ASSESSMENT:')
 
 if 'urgent' in subject or 'immediate action required' in subject:
-    print('HIGH RISK: Possible phising attempt.')
+    print('HIGH RISK: Possible phishing attempt.')
 elif 'win' in subject or 'free' in subject:
     print('MEDIUM RISK: Suspicious offer detected.')
 elif 'password reset' in subject:
     print('LOW RISK: Verify legitimacy with sender.')
 else:
-    print('No phising indicators detected.')
+    print('No phishing indicators detected.')
 print('------------------------')
 print(f'Analyzed subject: "{subject}"') 
 ########### END YER CODE ABOVE THIS LINE ###########
