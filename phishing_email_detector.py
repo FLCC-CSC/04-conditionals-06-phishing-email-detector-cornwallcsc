@@ -14,7 +14,7 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-subject = input('Enter the email subject line: ')
+subject = input('Enter the email subject line: ').lower()
 print()
 print('SECURITY ASSESSMENT:')
 
